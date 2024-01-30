@@ -1,0 +1,8 @@
+a = int(input("Enter the number to print the table: "))
+i = 1
+
+while True:
+    if i > 10:
+        break
+    print(a, "*", i, "=", a * i)
+    i += 1
