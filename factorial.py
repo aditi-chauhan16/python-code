@@ -1,12 +1,7 @@
-'''#prints all letters except 'l' & 'p'
-i=0
-a='welcome
-
 #wap to generate fibonnaci series of a number
 n=int(input("enter the number")
-sum=0'''
-
-"""num = int(input('enter a number: '))
+sum=0
+num = int(input('enter a number: '))
 factorial = 1
 if num < 0:
   print("factorial doesn't exist for negative numbers")
