@@ -1,0 +1,72 @@
+def func_1(name): #NAME IS PARAMETER
+    print("welcome to python")
+    print("python is damn easy")
+    
+print("start \n")
+func_1("ADITI")  #ADITI IS ARGUMENT HERE
+print("finish")
+
+
+def cost_1(mrp,shipping,discount):
+    total_cost=mrp+shipping-discount
+    print(total_cost)
+cost_1(5000,discount=200,shipping=400)
+
+
+#WRITE A PYTHON PROGRAM TO CREATE A FUNCTION THAT DOES ARITHMETIC ADDITION,SUBTRACTION AND DIVISION OF TWO NUMBERS
+
+
+def arith(a,b):
+    total_sum=a+b
+    total_sub=a-b
+    print(total_sum)
+    print(total_sub)
+arith(5,10)
+
+ #from user
+ def calculator(num1, num2):
+    addition = num1 + num2
+    subtraction = num1 - num2
+    multiplication = num1 * num2
+    division = int(num1 / num2)  # Corrected division
+    
+    return addition, subtraction, multiplication, division
+
+number1 = int(input("Enter first number:\n"))
+number2 = int(input("Enter second number:\n"))
+operation = input("Enter operation (+, -, *, /): ")
+
+addition, subtraction, multiplication, division = calculator(number1, number2)
+
+if operation == '+':
+    print(f"Addition: {addition}")
+elif operation == '-':
+    print(f"Subtraction: {subtraction}")
+elif operation == '*':
+    print(f"Multiplication: {multiplication}")
+elif operation == '/':
+    print(f"Division: {division}")
+else:
+    print("Wrong operation")
+
+
+
+#WRITE A FUNCTION IF THE GIVEN YEAR IS LEAP YEAR
+
+def leap(year):
+   if year%4 ==0:
+      print("leap year")
+   else:
+       print("not a leap year")
+   
+year1=int(input("year"))
+leap(year1)
+
+#WRITE A FUNCTION TO REVERSE THE STRING
+def reverse_str()
+   str1='hello'
+   string=str1[::-1]
+   print(string)
+reverse_str()
+
+
