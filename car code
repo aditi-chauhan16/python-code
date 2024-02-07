@@ -1,0 +1,11 @@
+#WAP IF THE INPUT IS START,STOP &START
+a=input("enter start,quit,stop")
+if a=="start":
+    print("car started")
+
+elif a=="stop":
+    print("car stopped")
+elif a=="quit":
+    print("quit the car")
+else:
+    print("invalid")
