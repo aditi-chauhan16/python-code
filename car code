@@ -1,4 +1,4 @@
-#WAP IF THE INPUT IS START,STOP &START
+#WAP IF THE INPUT IS START,STOP & QUIT
 a=input("enter start,quit,stop")
 if a=="start":
     print("car started")
